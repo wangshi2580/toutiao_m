@@ -1,8 +1,14 @@
 <template>
   <div id="app">
-    <h3>黑马头条</h3>
+    <router-view></router-view>
   </div>
 </template>
+
+<script>
+export default {
+
+};
+</script>
 
 <style lang="less">
 
